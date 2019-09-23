@@ -1,0 +1,24 @@
+{
+  "name": "bruno_home",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://github.com/kurepark/bruno_home",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -w docs/scss --output-style compressed -o docs/css",
+    "deploy": "npm run build&&gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurepark/bruno_home.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kurepark/bruno_home/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}

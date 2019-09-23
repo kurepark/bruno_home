@@ -1,0 +1,53 @@
+@import './variable';
+
+//wrap
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: $color_main;
+}
+
+//header
+.bruno_header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(#fff, 0.5);
+    padding: 10px 20px;
+    z-index: 11;
+}
+
+.bh_logo{
+    float: left;
+    color: #fff;
+    font: {
+        size: 20px;
+        weight: bold;
+    }
+    line-height: 30px
+}
+
+.bh_nav_list {
+    @include clear;
+
+    float: right;
+}
+
+.bh_nav_item{
+    float: left;
+
+    &.nav_on .bh_nav_link{
+        color: #fff;
+    }
+}
+
+.bh_nav_link{
+    color: $color_main;
+    font: {
+        size: 18px;
+        weight: bold;
+    }
+    padding: 0 10px;
+    line-height: 30px;
+}
+

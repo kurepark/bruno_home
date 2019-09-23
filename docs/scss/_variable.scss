@@ -1,0 +1,12 @@
+//color set
+$color_main : #0a2707;
+$color_sub : #7aa34a;
+$color_trivial : #97bf7a;
+
+@mixin clear {
+    &::after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
