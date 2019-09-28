@@ -3,26 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
+<div class="wrap">
+    <header class="bruno_header">
+        <h1 class="bh_logo">Bruno Homepage</h1>
+        <nav class="bh_nav">
+            <ul class="bh_nav_list">
+                <li class="bh_nav_item nav_on">
+                    <a href="./" class="bh_nav_link">Home</a>
+                </li>
+                <li class="bh_nav_item">
+                    <a href="./filmo.html" class="bh_nav_link">filmography</a>
+                </li>
+                <li class="bh_nav_item">
+                    <a href="./video.html" class="bh_nav_link">video</a>
+                </li>
+                <li class="bh_nav_item">
+                    <a href="./board.html" class="bh_nav_link">board</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <div class="bruno_video">
         <div class="bv_wrap">
             <div class="bv_list_wrap">
+                <h3 class="bv_list_title">entertainment show</h3></div>
                 <ul class="bv_list">
                     <li class="bv_item">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/hXo54TJy6xE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="bv_vw">
+                            <iframe src="https://www.youtube.com/embed/hXo54TJy6xE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
                     </li>
                     <li class="bv_item">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/yZjwLuUrT88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </li>
-                    <li class="bv_item">
-                        <video class="bv_video" autoplay>
-                        <source src="https://www.youtube.com/embed/yZjwLuUrT88" />
-                        </video>
+                        <div class="bv_vw">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/yZjwLuUrT88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
+</div>
 </body>
 </html>
